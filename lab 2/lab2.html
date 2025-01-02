@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 2</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- Question 1 -->
+    <h1>Form</h1>
+    <form action="#" method="post">
+        <label>Name:</label>
+        <input type="text" placeholder="enter name" value="Unknown">
+        <br><br>
+        
+        <label>Password:</label>
+        <input type="password" placeholder="enter password">    
+        <br><br>
+    
+        <label>Confirm Password:</label>
+        <input type="password" placeholder="confirm password">
+        <br><br>
+    
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="enter number"  value="01234567890" >
+        <br><br>
+    
+        <label>Email:</label>
+        <input type="email" placeholder="enter email">
+        <br><br>
+    
+        <label>Gender:</label>
+        <input type="radio" name="gender" >
+        <label>Male</label>
+        <input type="radio" name="gender" >
+        <label>Female</label>
+        <br><br>
+    
+        <label>Date of Birth:</label>
+        <input type="date">
+        <br><br>
+
+        <label>Do you like this lab?</label>
+        <input type="radio" name="option" checked>
+        <label>Yes</label>
+        <input type="radio" name="option" >
+        <label>No</label>
+        <br><br>
+
+        <label for="rating">Rate our Session:</label>
+        <input type="range" min="1" max="10" value="8">
+        <br><br>
+
+        <label>Favorite Color:</label>
+        <select name="favoriteColor">
+        <option value="favoriteColor">favoriteColor</option>
+        <option value="White">White</option>
+        <option value="Red">Red</option>
+        <option value="Black">Black</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="Yellow">Yellow</option>
+        </select>
+        <br><br>
+
+        <label>Feedback:</label>
+        <textarea name="feedback" placeholder="enter your feedback"></textarea>
+        <br><br>
+    
+        <label>Upload Resume:</label>
+        <input type="file" name="resume" placeholder="upload resume">
+        <br><br>
+    
+        <label>Select your favorite language:</label>
+        <input type="checkbox" value="C">
+        <label >C</label>
+        <input type="checkbox" value="Python">
+        <label >Python</label>
+        <input type="checkbox" value="Java">
+        <label >Java</label>
+        <input type="checkbox" value="C++">
+        <label >C++</label>
+        <br><br>
+
+        <input type="hidden" value="valueToBeSubmitted">
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr><hr><hr>
+
+    <!-- Question 2 -->
+    <h1>Register Form with Semantic Tags</h1>
+
+    <main>
+        <form action="#" method="post" class="registerationForm">
+            <section>
+                <label>Name:</label>
+                <input type="text" placeholder="enter name" value="Unknown"><br><br>
+                <label>Password:</label>
+                <input type="password" placeholder="enter password">    
+                <br><br>
+                <label>Email:</label>
+                <input type="email" placeholder="enter email">
+                <br><br>
+        
+                <button type="submit">Submit</button>
+            </section>
+            <footer>
+                <a href="https://www.google.com">Terms and Conditions</a>
+            </footer>
+        </form>
+    </main>
+
+
+    <hr><hr><hr>
+
+    <!-- Question 5 -->
+    <h1>Feedback Form with sections</h1>
+    <form action="#" method="post" class="feedbackForm">
+        <section >
+            <h2>Personal Information</h2>
+            <label>Name:</label>
+            <input type="text" placeholder="enter name" value="Unknown">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" placeholder="enter email">
+            <br><br>
+
+            <label>Feedback:</label>
+            <textarea placeholder="enter your feedback"></textarea>
+        </section>
+        <section>
+            <input type="submit" id="submit-btn" value="Submit">
+        </section>
+    </form>    
+
+    <hr><hr><hr>
+
+    <h1>Survey Form</h1>
+    <form action="#" method="post" class="surveyForm">
+        <section>
+            <label>Name:</label><br>
+            <input type="text" placeholder="enter name" value="Unknown"><br><br>
+            
+            <label>Email:</label><br>
+            <input type="email" placeholder="enter email">
+            
+            <label>Age:</label><br>
+            <input type="number" placeholder="enter age">
+            
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" >
+            <label>Male</label>
+            <input type="radio" name="gender" >
+            <label>Female</label>
+            <br><br>
+            
+            <label>Feedback:</label><br>
+            <textarea id="feedback" name="feedback" placeholder="Enter your feedback"></textarea>
+            <br><br>
+
+        </section>
+        <section>
+            <input type="submit" value="Submit">
+        </section> 
+    </form>
+
+
+
+    <hr><hr><hr>
+
+    <h1>Comment submission</h1>
+    <article class="comment-section">
+        <form class="comment">
+            <label>Name:</label><br>
+            <input type="text" placeholder="enter name" value="Unknown">
+            <br><br>
+            
+            <label>Email:</label><br>
+            <input type="email" placeholder="enter email">
+            <br><br>
+
+            <label>Feedback:</label><br>
+            <textarea placeholder="enter your feedback"></textarea>
+  
+           
+        </form>
+        <aside>
+            <h3>Comments</h3>
+            <section>
+                <div class="user-comment">
+                    <label>Nouran</label><br>
+                    <p>Woow</p>
+                </div>
+
+                <div class="user-comment">
+                    <label>Esraa</label><br>
+                    <p>Nice</p>
+                </div>
+
+                <div class="user-comment">
+                    <label>Arwa</label><br>
+                    <p>Great</p>
+                </div>
+            </section>
+        </aside>
+    </article>
+
+    <hr><hr><hr>
+
+
+    <form>
+        <legend>User-friendly Form</legend>
+        <fieldset class="UserFriendlyForm">
+            <label>Name:</label><br>
+            <input type="text" placeholder="enter name" value="Unknown">
+            <br><br>
+            
+            <label>Email:</label><br>
+            <input type="email" placeholder="enter email">
+            <br><br>
+
+            <label>Message:</label><br>
+            <textarea placeholder="enter your message"></textarea>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <div class="box">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+    </div>
+
+</body>
+</html>

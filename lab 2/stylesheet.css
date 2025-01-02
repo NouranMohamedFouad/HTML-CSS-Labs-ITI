@@ -1,0 +1,181 @@
+.registerationForm
+{
+    background-color: #a9c4e0;
+    padding: 2%;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left:6rem;
+}
+.registerationForm input
+{
+    padding:1em;
+    margin-left: 5rem;
+    width: 50%;
+}
+.registerationForm button
+{
+    padding:1em;
+    width: 50%;
+}
+
+/* 
+*
+*
+*
+*
+*/
+
+.feedbackForm
+{
+    background-color: #a9c4e0;
+    padding: 2%;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left:6rem;
+}
+.feedbackForm section
+{
+    color: rgb(58, 63, 89);
+}
+#submit-btn
+{
+    padding:1em;
+    width: 40%;
+    margin-left: 5rem;
+    background-color: thistle;
+    border-radius: 10px;
+}
+
+
+
+/* 
+*
+*
+*
+*
+*
+*/
+
+.surveyForm {
+    background-color: #a9c4e0;
+    padding: 2%;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left:6rem;
+}
+.surveyForm input[type="text"],
+.surveyForm input[type="email"],
+.surveyForm input[type="number"],
+.surveyForm textarea {
+    padding: 0.5em;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.surveyForm input[type="submit"] {
+    padding:1em;
+    width: 40%;
+    margin-left: 5rem;
+    background-color: thistle;
+    border-radius: 10px;
+}
+
+/* 
+*
+*
+*
+*
+*
+ */
+
+ .comment-section
+{
+    background-image: url('comment.jpg');
+    padding: 2%;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left:6rem;
+}
+.comment
+{
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.user-comment 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.user-comment p 
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+   
+}
+
+/* 
+*
+*
+*
+*
+*/
+
+.UserFriendlyForm {
+    padding: 2%;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left:6rem;
+    background-color: #6a739397;
+}
+.UserFriendlyForm label {
+    margin-bottom: 0.5em;
+}
+
+.UserFriendlyForm input[type="text"],
+.UserFriendlyForm input[type="email"],
+.UserFriendlyForm textarea {
+    padding: 0.5em;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #656e9090;
+}
+.UserFriendlyForm input[type="submit"] {
+    padding: 0.5em;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #656e9075;
+}
+
+
+
+.box1{
+    width: 50%;
+    height: 10%;
+    margin: 30%;
+    padding: 10%;
+    box-sizing:border-box;
+    background-color: rgb(189, 194, 243);
+    border: 5px solid rgba(0, 0, 0, 0.424);
+
+ }
+ 
+ .box2{
+    width: 50%;
+    height: 10%;
+    margin: 10%;
+    padding: 5%;
+    box-sizing:border-box;
+    background-color: rgb(189, 194, 243);
+    border: 5px solid rgba(0, 0, 0, 0.424);
+ }
